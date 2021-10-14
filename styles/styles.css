@@ -103,3 +103,54 @@ h3 {
     font-size: 20px;
     font-family: Arial;
 }
+
+@media screen and (max-width: 1000px) {
+    .quiz {
+        display: none;
+        border: 2px solid red;
+        width: 70%;
+        margin-top: 3rem;
+    }
+    .questions {
+        width: 100%;
+    }
+
+    
+    
+}
+
+
+@media screen and (max-width: 650px ) {
+    .quiz {
+        width: 90%;
+        padding: 10px 0;
+        margin: 10px;
+    }
+
+    
+}
+
+@media screen and (max-width: 520px) {
+    .quiz {
+        height: 90%;
+        width: 80%;
+    }
+    .questions {
+        align-items: center;
+        height: 30%;
+        flex-direction: column;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 300px ) {
+
+    .quiz {
+        height: 40%;
+    }
+
+
+    
+}
