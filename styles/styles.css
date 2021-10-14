@@ -23,7 +23,7 @@ background-position: center;
 }
 
 #quiz {
-    background-image:  url('/img/pokemon4.jpg');
+    background-image:  url('./img/pokemon4.jpg');
     background-position: center;
     background-size: 250%;
     width: 30rem;
