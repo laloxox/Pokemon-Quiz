@@ -1,0 +1,105 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+        /*background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg fill-opacity='0.86'%3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23230046' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%232f0052' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%233b075e' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%2348156a' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23552277' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+
+}
+
+#quiz {
+    background-image:  url('/img/pokemon4.jpg');
+    background-position: center;
+    background-size: 250%;
+    width: 30rem;
+    padding: 1rem;
+    border-image: auto;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 8px 12px 21px 2px rgba(0, 0, 0, 0.70)
+    
+    
+
+}
+
+
+
+
+h1 {
+    font-family: Arial;
+    text-overflow: clip;
+    text-decoration-color:black;
+    color:rgb(43, 33, 131);
+    text-decoration-line: line-through;
+    text-shadow: 3px 3px 0 black;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2px 0;
+}
+
+h3 {
+    font-family: Arial;
+    text-overflow: clip;
+    font-weight: 700;
+}
+    
+
+
+
+#question {
+    font-size: 1.7rem;
+    font-family: Arial;
+    text-shadow: 2px 2px 0 black;
+    color: rgb(61, 8, 158);
+    text-shadow: #200264;
+    
+}
+
+.button {
+    background-color: #37d8a2;
+    width: 250px;
+    font-size: 20px;
+    border-radius: .5rem;
+    padding: 10px 20px;
+    margin: 10px 40px 10px;
+    box-shadow: 8px 12px 21px 2px rgba(0, 0, 0, 0.80);
+    overflow: hidden;
+    border: 2px solid #28e4cb;
+    transition: all 500ms ease;
+    margin-bottom: 20px;
+    z-index: 0;
+    font-weight: 700;
+    
+
+
+}
+
+.button:hover {
+    cursor: pointer;
+    background: #068d4a;
+    stroke-width:4;
+    stroke-dasharray:196,543;
+    stroke-dashoffset:437   
+
+}
+
+
+#progress {
+    font-size: 20px;
+    font-family: Arial;
+}
