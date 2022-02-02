@@ -39,13 +39,12 @@ background-position: center;
 
 
 
-
-h1 {
+#titulo {
     font-family: Arial;
     text-overflow: clip;
     text-decoration-color:black;
     color:rgb(43, 33, 131);
-    text-decoration-line: line-through;
+    text-decoration-line: none;
     text-shadow: 3px 3px 0 black;
     font-size: 3rem;
     text-align: center;
@@ -64,9 +63,9 @@ h3 {
 #question {
     font-size: 1.7rem;
     font-family: Arial;
-    text-shadow: 2px 2px 0 black;
-    color: rgb(61, 8, 158);
-    text-shadow: #200264;
+    text-shadow: 1px 1px 0 black;
+    color: rgb(134, 109, 24);
+    text-shadow: #000000;
     
 }
 
@@ -100,8 +99,12 @@ h3 {
 
 
 #progress {
+
     font-size: 20px;
     font-family: Arial;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #000000;
+
 }
 
 @media screen and (max-width: 1000px) {

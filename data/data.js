@@ -59,7 +59,37 @@ question: 'Cual de estas opciones no es un pokemon electrico?',
                                 question: 'Como se atrapa a los pokemon?',
                                     choices: ['Con redes','A palos','Con una pokebola','Con una poketrampa'],
                                     answer: 'Con una pokebola'
-                                }
+                                },
+
+                                {
+                                    question: 'Como es que ash consiguio a pikachu?',
+                                    choices: ['Porque se lo encontro','lo eligio','Porque llego tarde a elegir un pokemon','se lo regalaron'],
+                                    answer: 'Porque llego tarde a elegir un pokemon'
+                                },
+
+                                {
+                                    question: 'Es un pokemon que surgio a traves de exponer el ADN de un virus espacial a un rayo laser? ',
+                                    choices: ['Hitmonchan','Graveler','pichu','Deoxys'],
+                                    answer: 'Deoxys'
+                                }, ///
+
+                                {
+                                    question: 'Es un pokemon que surgio a traves de exponer el ADN de un virus espacial a un rayo laser? ',
+                                    choices: ['Hitmonchan','Graveler','pichu','Deoxys'],
+                                    answer: 'Deoxys'
+                                },
+
+                                {
+                                    question: 'Es un pokemon que surgio a traves de exponer el ADN de un virus espacial a un rayo laser? ',
+                                    choices: ['Hitmonchan','Graveler','pichu','Deoxys'],
+                                    answer: 'Deoxys'
+                                },
+
+                                {
+                                    question: 'Es un pokemon que surgio a traves de exponer el ADN de un virus espacial a un rayo laser? ',
+                                    choices: ['Hitmonchan','Graveler','pichu','Deoxys'],
+                                    answer: 'Deoxys'
+                                },
 
 
 
