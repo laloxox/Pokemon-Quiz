@@ -105,8 +105,16 @@ h3 {
     text-transform: uppercase;
     text-shadow: 1px 1px 0 #000000;
 
+
+
 }
 
+#pokebola {
+display: flex;
+
+
+
+}
 @media screen and (max-width: 1000px) {
     .quiz {
         display: none;
