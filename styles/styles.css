@@ -40,15 +40,17 @@ background-position: center;
 
 
 #titulo {
-    font-family: Arial;
+    font-family: 'Fredoka One', cursive;
     text-overflow: clip;
     text-decoration-color:black;
+    background-color: #e4e7e4;
     color:rgb(43, 33, 131);
     text-decoration-line: none;
     text-shadow: 3px 3px 0 black;
-    font-size: 3rem;
+    font-size: 3.2rem;
     text-align: center;
     padding: 2px 0;
+    
 }
 
 h3 {
@@ -109,12 +111,71 @@ h3 {
 
 }
 
-#pokebola {
-display: flex;
-
+#pokeball {
+    display: flex;
+    border-radius: 50px;
+    text-align: center;
+    opacity: 5px;
+    position: absolute; top: 85%;
+    top: 600px;
+    right: 1300px;
+    
 
 
 }
+
+#reinicio {
+    width: 120px;
+    height: 120px;
+    background-image: url('/img/descarga.png');
+    transform: rotate(30deg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-position: center;
+    
+
+    border-radius: 150px;
+    border-color: #ffff;
+    position: relative; top:0%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    opacity: 10px;
+    
+    
+
+}
+
+#reinicio:hover {
+    cursor: pointer;
+    background-color: #afb4af;
+    opacity: 10px;
+    stroke-width:4;
+    stroke-dasharray:196,543;
+    stroke-dashoffset:437; 
+    overflow: hidden;
+    
+    transition: all 500ms ease;
+    margin-bottom: 20px;
+    z-index: 0;
+    
+}
+
+
+
+#p {
+    position: relative;
+    color: #944ec7;
+    transform: rotate(0deg);
+    top: 200px;
+    right: 10px;
+    left: -897px;
+    text-size-adjust: 30rem;
+    font-family: 'Rowdies', cursive;
+}
+
 @media screen and (max-width: 1000px) {
     .quiz {
         display: none;

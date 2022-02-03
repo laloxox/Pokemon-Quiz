@@ -8,6 +8,9 @@
     <title>Pokemon Quiz</title> 
     
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" ></script> 
 
     <style>
@@ -33,17 +36,11 @@
             <p id="progress"></p>
         </footer>
 
-        <script>
         
-        </script>
 
     </div>
 
-    <div id="pokebola">
-        <button>
-            <img src="" alt="">
-        </button>
-    </div>
+
 
     <script>
         
@@ -53,9 +50,17 @@
         
     });
 
+    gsap.to('#quiz', {
+        duration: 4,
+        x: 15,
+        ease: 'elastic'
+        
+
+    });
+
     gsap.to('#titulo', {
         duration: 4,
-        x: 10,
+        x: 15,
         ease: 'elastic'
         
 
@@ -63,17 +68,32 @@
 
     gsap.to('#progress', {
         duration: 4,
-        x: 10,
-        ease: 'elastic'
+        x: 15,
+        ease: 'back'
 
     });
 
     gsap.to('#question', {
         duration: 3,
-        x: 10,
+        x: 15,
         ease: 'elastic'
 
     });
+
+    gsap.to('#reinicio', {
+        duration: 4,
+        x: -100,
+        ease: 'elastic'
+
+    });
+    gsap.to('#pokeball', {
+        duration: 4,
+        x: -100,
+        ease: 'elastic'
+
+    });
+
+
 
     const animacion = (gsap) => {
         gsap.effects.fade('#titulo', {
@@ -99,14 +119,22 @@
 
     // or directly on timelines:
     let tl = gsap.timeline();
-    tl.fade("#titulo", {duration: 30});
+    tl.fade("#titulo", {duration: 120});
     //.fade(".box2", {duration: 1}, "+=2")
     //.to(".box3", {x:100});
 
 
+
     </script>
 
-    
+    <p id="p" > REINICIAR </p>
+    <div id="pokeball">
+        
+    <button type="button" id="reinicio" onclick="location.reload()">
+        
+    </button>
+
+    </div>
 <!--SCRIPTS-->
 
 <script src="./app.js" type="module"></script>
