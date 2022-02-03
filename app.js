@@ -11,6 +11,8 @@ import {UI} from './models/UI.js'
  * @param {UI} ui ui objetc
  */
 
+    
+
 const renderPage = (quiz, ui) => {
     if (quiz.isEnded()) {
         console.log(quiz.score);
@@ -36,3 +38,8 @@ function main() {
 }
 
 main();
+
+
+function reiniciar() {
+    document.getElementById("reinicio").reset();
+}
