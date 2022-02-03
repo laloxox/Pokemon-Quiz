@@ -176,6 +176,11 @@ h3 {
     font-family: 'Rowdies', cursive;
 }
 
+
+
+
+/****** RESPONSIVE ******/
+
 @media screen and (max-width: 1000px) {
     .quiz {
         display: none;
