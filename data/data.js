@@ -74,21 +74,21 @@ question: 'Cual de estas opciones no es un pokemon electrico?',
                                 }, ///
 
                                 {
-                                    question: 'Es un pokemon que surgio a traves de exponer el ADN de un virus espacial a un rayo laser? ',
-                                    choices: ['Hitmonchan','Graveler','pichu','Deoxys'],
-                                    answer: 'Deoxys'
+                                    question: 'En la serie, como logran mover a snorlaks despues de quedarse dormido?',
+                                    choices: ['Con unos troncos','Con una carretilla','Con cuerdas','Juan'],
+                                    answer: 'Con unos troncos'
                                 },
 
                                 {
-                                    question: 'Es un pokemon que surgio a traves de exponer el ADN de un virus espacial a un rayo laser? ',
-                                    choices: ['Hitmonchan','Graveler','pichu','Deoxys'],
-                                    answer: 'Deoxys'
+                                    question: 'Como se llama el pokemon que misty siempre lleva en sus brazos?',
+                                    choices: ['Hitmonchan','Abra','Gaslty','Togepi'],
+                                    answer: 'Togepi'
                                 },
 
                                 {
-                                    question: 'Es un pokemon que surgio a traves de exponer el ADN de un virus espacial a un rayo laser? ',
-                                    choices: ['Hitmonchan','Graveler','pichu','Deoxys'],
-                                    answer: 'Deoxys'
+                                    question: 'Cual es el nombre del dispositivo que usan para saber la informacion de un pokemon?',
+                                    choices: ['Pokepedia','Pokedex','Base de Datos Pokemon ','El civer'],
+                                    answer: 'Pokedex'
                                 },
 
 
