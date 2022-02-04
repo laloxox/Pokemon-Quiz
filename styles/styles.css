@@ -115,7 +115,7 @@ h3 {
     display: flex;
     border-radius: 50px;
     text-align: center;
-    opacity: 5px;
+    
     position: absolute; top: 85%;
     top: 600px;
     right: 1300px;
@@ -140,7 +140,7 @@ h3 {
     font-size: 20px;
     padding: 10px;
     cursor: pointer;
-    opacity: 10px;
+
     
     
 
