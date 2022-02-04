@@ -49,90 +49,6 @@
     </div>
 
 
-<!--/////ANIMACIONES CON LA LIBRERIA GSAP/////-->
-
-    <script>
-        
-
-            gsap.set('#titulo', {
-            backgrounColor: "white"
-            
-        });
-
-        gsap.to('#quiz', {
-            duration: 4,
-            x: 15,
-            ease: 'elastic'
-            
-
-        });
-
-        gsap.to('#titulo', {
-            duration: 4,
-            x: 15,
-            ease: 'elastic'
-            
-
-        });
-
-        gsap.to('#progress', {
-            duration: 4,
-            x: 15,
-            ease: 'back'
-
-        });
-
-        gsap.to('#question', {
-            duration: 3,
-            x: 15,
-            ease: 'elastic'
-
-        });
-
-        gsap.to('#reinicio', {
-            duration: 4,
-            x: -100,
-            ease: 'elastic'
-
-        });
-        gsap.to('#pokeball', {
-            duration: 4,
-            x: -100,
-            ease: 'elastic'
-
-        });
-
-
-
-        const animacion = (gsap) => {
-            gsap.effects.fade('#titulo', {
-        direction: "down", //can reference any properties that the author decides - in this case "direction".
-        duration: 3
-        });
-    };
-
-    //registra el efecto
-
-            
-        gsap.registerEffect({
-            name: "fade",
-            effect: (targets, config) => {
-                return gsap.to(targets, {duration: config.duration, opacity: 0});
-            },
-            defaults: {duration: 4}, //defaults get applied to any "config" object passed to the effect
-            extendTimeline: true, //now you can call the effect directly on any GSAP timeline to have the result immediately inserted in the position you define (default is sequenced at the end)
-        });
-
-        // now we can use it like this:
-        gsap.effects.fade("#titulo");
-
-        // or directly on timelines:
-        let tl = gsap.timeline();
-        tl.fade("#titulo", {duration: 120});
-        //.fade(".box2", {duration: 1}, "+=2")
-        //.to(".box3", {x:100});
-
-    </script>
 
     <!--////BOTON DE ACTUALIZAR PAGINA///-->
 
@@ -146,6 +62,94 @@
     </div>
 
 <!--///////SCRIPTS///////////-->
+
+
+<!--/////ANIMACIONES CON LA LIBRERIA GSAP/////-->
+
+<script>
+        
+
+    gsap.set('#titulo', {
+    backgrounColor: "white"
+    
+});
+
+gsap.to('#quiz', {
+    duration: 4,
+    x: 15,
+    ease: 'elastic'
+    
+
+});
+
+gsap.to('#titulo', {
+    duration: 4,
+    x: 15,
+    ease: 'elastic'
+    
+
+});
+
+gsap.to('#progress', {
+    duration: 4,
+    x: 15,
+    ease: 'back'
+
+});
+
+gsap.to('#question', {
+    duration: 3,
+    x: 15,
+    ease: 'elastic'
+
+});
+
+gsap.to('#reinicio', {
+    duration: 4,
+    x: -100,
+    ease: 'elastic'
+
+});
+//gsap.to('#pokeball', {
+  //  duration: 4,
+    //x: 97,
+    //ease: 'elastic'
+
+//});
+
+gsap.to("#pokeball", {rotation: 30, x: 95, y: 60, duration: 1});
+
+
+
+const animacion = (gsap) => {
+    gsap.effects.fade('#titulo', {
+direction: "down", //can reference any properties that the author decides - in this case "direction".
+duration: 3
+});
+};
+
+//registra el efecto
+
+    
+gsap.registerEffect({
+    name: "fade",
+    effect: (targets, config) => {
+        return gsap.to(targets, {duration: config.duration, opacity: 0});
+    },
+    defaults: {duration: 4}, //defaults get applied to any "config" object passed to the effect
+    extendTimeline: true, //now you can call the effect directly on any GSAP timeline to have the result immediately inserted in the position you define (default is sequenced at the end)
+});
+
+// now we can use it like this:
+gsap.effects.fade("#titulo");
+
+// or directly on timelines:
+let tl = gsap.timeline();
+tl.fade("#titulo", {duration: 120});
+//.fade(".box2", {duration: 1}, "+=2")
+//.to(".box3", {x:100});
+
+</script>
 
 <script src="./app.js" type="module"></script>
 

@@ -130,10 +130,8 @@ h3 {
     background-image: url('/img/descarga.png');
     transform: rotate(30deg);
     background-repeat: no-repeat;
-    background-size: 150px 150px;
+    background-size: 130px 130px;
     background-position: center;
-    
-
     border-radius: 150px;
     border-color: #ffff;
     position: relative; top:0%;
@@ -171,7 +169,7 @@ h3 {
     transform: rotate(0deg);
     top: 200px;
     right: 10px;
-    left: -897px;
+    left: -899px;
     text-size-adjust: 30rem;
     font-family: 'Rowdies', cursive;
 }
