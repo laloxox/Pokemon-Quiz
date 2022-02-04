@@ -127,7 +127,7 @@ h3 {
 #reinicio {
     width: 120px;
     height: 120px;
-    background-image: url('/img/descarga.png/');
+    background-image: url('/img/descarga.png');
     transform: rotate(30deg);
     background-repeat: no-repeat;
     background-size: 130px 130px;
