@@ -115,7 +115,7 @@ h3 {
     display: flex;
     border-radius: 50px;
     text-align: center;
-    opacity: 5px;
+    
     position: absolute; top: 85%;
     top: 600px;
     right: 1300px;
@@ -127,7 +127,7 @@ h3 {
 #reinicio {
     width: 120px;
     height: 120px;
-    background-image: url('/img/descarga.png');
+    background-image: url('/img/descarga.jpg');
     transform: rotate(30deg);
     background-repeat: no-repeat;
     background-size: 130px 130px;
@@ -140,7 +140,7 @@ h3 {
     font-size: 20px;
     padding: 10px;
     cursor: pointer;
-    opacity: 10px;
+
     
     
 
