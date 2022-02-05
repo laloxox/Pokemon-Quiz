@@ -127,9 +127,9 @@ h3 {
 #reinicio {
     width: 120px;
     height: 120px;
-    background-image: url('/img/pokebola-boton.png');
+    background-image: url('https://clipground.com/images/pokebola-png-6.png');
     transform: rotate(-30deg);
-    /**background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     background-size: 187px 187px;
     background-position: center;
     border-radius: 150px;
