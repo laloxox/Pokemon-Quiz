@@ -180,15 +180,48 @@ h3 {
 /****** RESPONSIVE ******/
 
 @media screen and (max-width: 1000px) {
-    .quiz {
-        display: none;
-        border: 2px solid red;
-        width: 70%;
-        margin-top: 3rem;
+    #quiz {
+        width: 50%;
+        height: 98%;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
     }
-    .questions {
-        width: 100%;
+    #question {
+        width: 90%;
     }
+
+    #reinicio{
+        width: 30%;
+        height: 7rem;    
+        right: 90px;
+    
+    
+    }
+    #reinicio:hover {
+        height: 7rem;    
+        right: 100px;
+    
+    
+    }
+
+    #pokeball{
+        width: 39%;
+        top: 650px;
+        right: 500px;
+        display: flex;
+        position: fixed;
+    }
+
+    #p {
+        top: 200px;
+        right: 200px;
+        left: -650px;
+        
+    
+
+    }
+
+
 
     
     
@@ -196,33 +229,136 @@ h3 {
 
 
 @media screen and (max-width: 650px ) {
-    .quiz {
-        width: 90%;
-        padding: 10px 0;
-        margin: 10px;
+    #quiz {
+        width: 60%;
+        height: 89%;
+        padding: 2px;
+        margin: 5px;
+        background-size: 800px;
+        background-position: center;
     }
+
+    #question {
+        display: flex;
+        width: 88%;
+        font-size: 18px;
+        right: 10px;
+        align-items: center;
+    }
+
+    #titulo {
+        width: 88%;
+        height: 10%;
+        font-size: 32px;
+        align-items: center;
+        padding: 9  px;
+        left: 40px;
+
+    }
+
+    .hr  {
+        width: 85%;
+    }
+
+    .hr2 {
+        width: 85%;
+    }
+
+
+
+    #choices {
+        width: 65%;
+        padding: 20px;
+        border-bottom: 20rem;
+    }
+
+    #reinicio{
+        width: 20%;
+        height: 6rem;    
+        right: 100px;
+    
+    
+    }
+    #reinicio:hover {
+        height: 7rem;    
+        right: 100px;
+    
+    
+    }
+
+    #pokeball{
+        width: 70%;
+        top: 670px;
+        right: -390px;
+        display: flex;
+        position: fixed;
+        border-radius: 70px;
+    }
+
+    #p {
+        
+        top: 200px;
+        right: -390px;
+        left: 45px;
+        
+
+    }
+
+    #progress {
+        font-size: 15px;
+        color: #c31432;
+        font-family: 'Rowdies', cursive;
+        padding-bottom: 30px;
+    }
+
+
 
     
 }
 
 @media screen and (max-width: 520px) {
-    .quiz {
-        height: 90%;
-        width: 80%;
+    #quiz {
+        height: 85%;
+        width: 70%;
+        padding: 35px;
+        
     }
-    .questions {
+    #question {
         align-items: center;
-        height: 30%;
+        height: 10%;
         flex-direction: column;
+        font-size: 15px;
+    }
+
+    #titulo {
+        width: 80%;
+        height: 10%;
+        font-size: 30px;
+        padding: 1px;
+    }
+
+    #choices {
+        width: 80%;
+        top: 100px;
+        padding: .5px;
+        border-bottom: 30rem;
+        align-items: center;
+    }
+
+    #pokeball{
+        display: none;
     }
     
+    #p {
+        display: none;
+    }
 }
 
 
 
 @media screen and (max-width: 300px ) {
 
-    .quiz {
+    #quiz {
         height: 40%;
     }
 
