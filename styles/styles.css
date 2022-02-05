@@ -127,10 +127,10 @@ h3 {
 #reinicio {
     width: 120px;
     height: 120px;
-    background-image: url('/img/descarga.jpg');
-    transform: rotate(30deg);
+    background-image: url('/img/pokebola-boton.png');
+    transform: rotate(-30deg);
     /**background-repeat: no-repeat;*/
-    background-size: 130px 130px;
+    background-size: 187px 187px;
     background-position: center;
     border-radius: 150px;
     border-color: #ffff;
@@ -168,8 +168,8 @@ h3 {
     color: #944ec7;
     transform: rotate(0deg);
     top: 200px;
-    right: 10px;
-    left: -899px;
+    right: 50px;
+    left: -870px;
     text-size-adjust: 30rem;
     font-family: 'Rowdies', cursive;
 }
