@@ -129,7 +129,7 @@ h3 {
     height: 120px;
     background-image: url('/img/descarga.jpg');
     transform: rotate(30deg);
-    background-repeat: no-repeat;
+    /**background-repeat: no-repeat;*/
     background-size: 130px 130px;
     background-position: center;
     border-radius: 150px;
