@@ -25,6 +25,11 @@ background-position: center;
 
 }
 
+.audio {
+    display: none;
+
+}
+
 #quiz {
     background-image:  url('../img/pokemon4.jpg');
     background-position: center;
