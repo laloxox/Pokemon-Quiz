@@ -141,13 +141,13 @@ h3 {
     display: flex;
     border-radius: 50px;
     text-align: center;
-    
     position: absolute; top: 85%;
     top: 600px;
     right: 1300px;
+    position: -webkit-sticky;  
+    position: sticky;
+    top: 0; 
     
-
-
 }
 
 #reinicio {
@@ -306,14 +306,135 @@ h3 {
 
 /****** RESPONSIVE ******/
 
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 2000px) {
     #quiz {
-        width: 50%;
-        height: 98%;
-        margin-bottom: 2rem;
+        width: 30%;
+        height: 88%;
+        margin-bottom: 7rem;
         margin-top: 4rem;
         margin-bottom: 2rem;
-        margin-left: 8rem;
+        margin-left: 3rem;
+    }
+
+
+    #question {
+        width: 90%;
+    }
+
+    
+    #choices {
+        width: 90%;
+        padding: 20px;
+        border-bottom: 30rem;
+            }
+
+    #progress {
+        width: 90%;
+    }
+
+    #reinicio{
+        width: 30%;
+        height: 7rem;    
+        right: 90px;
+        
+    
+    
+    }
+    #reinicio:hover {
+        height: 7rem;    
+        right: 100px;
+    
+    
+    }
+
+    #pokeball{
+        width: 20%;
+        top: 880px;
+        right: 1370px;
+        display: flex;
+        position: fixed;
+    }
+
+    #p {
+        top: 280px;
+        right: 500px;
+        left: -1120px;
+        
+    
+
+    }
+    .pie-de-pagina {
+        width: 1915px;
+        height: 800px;
+        padding: 20px -20px;
+        position: absolute;
+        margin-bottom: -60rem;
+    }
+
+    
+    .pie-de-pagina .grupo1 {
+        width: 80%;
+        grid-template-columns: repeat(2, 2fr);
+        grid-gap: 70px;
+        padding: 35px 0px;
+        text-align: center;
+    }
+
+    .pie-de-pagina .grupo1 .box figure img {
+        width: 250px;
+        height: 290px;
+        right: 300px;
+        
+    }
+
+    
+.pie-de-pagina .grupo1 .box figure {
+    width: 80%;
+    display: felx;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-de-pagina .grupo1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #e4e7e4;
+    margin-right: 10px; 
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+
+.pie-de-pagina .grupo2 {
+    background-color: #11273d;
+    padding: 15px 30px;
+    text-align: center;
+    color: #fff;
+}   
+
+
+
+    
+    
+}
+
+
+
+
+
+@media screen and (max-width: 1500px) {
+    #quiz {
+        width: 40%;
+        height: 95%;
+        margin-bottom: 7rem;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        margin-left: 3rem;
     }
 
 
@@ -325,6 +446,114 @@ h3 {
         width: 30%;
         height: 7rem;    
         right: 90px;
+        
+    
+    
+    }
+    #reinicio:hover {
+        height: 7rem;    
+        right: 100px;
+    
+    
+    }
+
+    #pokeball{
+        width: 33%;
+        top: 650px;
+        right: 655px;
+        display: flex;
+        position: fixed;
+    }
+
+    #p {
+        top: 200px;
+        right: 200px;
+        left: -730px;
+        
+    
+
+    }
+    .pie-de-pagina {
+        width: 400px;
+        height: 800px;
+        padding: 15px -20px;
+        position: absolute;
+        margin-bottom: -60rem;
+    }
+
+    
+    .pie-de-pagina .grupo1 {
+        width: 70%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+        text-align: center;
+    }
+
+    .pie-de-pagina .grupo1 .box figure img {
+        width: 180px;
+        
+    }
+
+    
+.pie-de-pagina .grupo1 .box figure {
+    width: 75%;
+    display: felx;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-de-pagina .grupo1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #e4e7e4;
+    margin-right: 10px; 
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+
+.pie-de-pagina .grupo2 {
+    background-color: #11273d;
+    padding: 15px 30px;
+    text-align: center;
+    color: #fff;
+}   
+
+
+
+    
+    
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    #quiz {
+        width: 45%;
+        height: 95%;
+        margin-bottom: 7rem;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        margin-left: 3rem;
+    }
+
+
+    #question {
+        width: 90%;
+    }
+
+    #reinicio{
+        width: 30%;
+        height: 7rem;    
+        right: 90px;
+        
     
     
     }
@@ -338,7 +567,7 @@ h3 {
     #pokeball{
         width: 39%;
         top: 650px;
-        right: 500px;
+        right: 520px;
         display: flex;
         position: fixed;
     }
@@ -346,7 +575,7 @@ h3 {
     #p {
         top: 200px;
         right: 200px;
-        left: -650px;
+        left: -670px;
         
     
 
