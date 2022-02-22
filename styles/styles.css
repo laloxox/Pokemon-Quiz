@@ -180,7 +180,7 @@ h3 {
     stroke-dasharray:196,543;
     stroke-dashoffset:437; 
     overflow: hidden;
-    
+
     transition: all 500ms ease;
     margin-bottom: 20px;
     z-index: 0;
@@ -231,12 +231,26 @@ h3 {
 
 
 
+.pie-de-pagina .grupo1 .box {
+    width: 100%;
+    height: 90%;
+    margin-top: 20px;
+    overflow: hidden;
+
+
+    
+}
+
+
 .pie-de-pagina .grupo1 .box figure {
-    width: 75%;
-    height: 84%;
+    width: 60%;
+    height: 90%;
     overflow: hidden;
     justify-content: center;
     align-items: center;
+    -webkit-transform: scale(1.5); 
+    transform: scale(0.9);
+
     
 
     
@@ -245,18 +259,22 @@ h3 {
 .pie-de-pagina .grupo1 .box figure img {
     width: 276px;
     bottom: 10px;
+    
 
 }
 
 
 .pie-de-pagina .grupo1 .box:hover figure img {
-    -webkit-transform: scale(1.3); 
-    transform: scale(1.3);
-    transition: all 500ms ease-in-out;
-    transition-delay: 100ms;
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    
     
     
 }
+
+
 
 .pie-de-pagina .grupo1 .box h2 {
     color: #e4e7e4;
@@ -429,8 +447,8 @@ h3 {
 
 @media screen and (max-width: 1500px) {
     #quiz {
-        width: 40%;
-        height: 95%;
+        width: 30%;
+        height: 90%;
         margin-bottom: 7rem;
         margin-top: 4rem;
         margin-bottom: 2rem;
@@ -443,9 +461,9 @@ h3 {
     }
 
     #reinicio{
-        width: 30%;
+        width: 25%;
         height: 7rem;    
-        right: 90px;
+        right: 95px;
         
     
     
@@ -459,8 +477,8 @@ h3 {
 
     #pokeball{
         width: 33%;
-        top: 650px;
-        right: 655px;
+        top: 720px;
+        right: 800px;
         display: flex;
         position: fixed;
     }
@@ -468,13 +486,13 @@ h3 {
     #p {
         top: 200px;
         right: 200px;
-        left: -730px;
+        left: -805px;
         
     
 
     }
     .pie-de-pagina {
-        width: 400px;
+        width: 600px;
         height: 800px;
         padding: 15px -20px;
         position: absolute;
@@ -491,13 +509,13 @@ h3 {
     }
 
     .pie-de-pagina .grupo1 .box figure img {
-        width: 180px;
+        width: 190px;
         
     }
 
     
 .pie-de-pagina .grupo1 .box figure {
-    width: 75%;
+    width: 78%;
     display: felx;
     justify-content: center;
     align-items: center;
