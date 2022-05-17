@@ -95,9 +95,9 @@ h3 {
 .button {
     background-color: #37d8a2;
     width: 250px;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: .5rem;
-    padding: 10px 20px;
+    padding: 8px 18px;
     margin: 10px 40px 10px;
     box-shadow: 8px 12px 21px 2px rgba(0, 0, 0, 0.80);
     overflow: hidden;
@@ -347,7 +347,7 @@ h3 {
 
     #question {
         width: 90%;
-        font-size: 34px;
+        font-size: 27px;
     }
 
     
@@ -463,7 +463,7 @@ h3 {
 @media screen and (max-width: 1500px) {
     #quiz {
         width: 30%;
-        height: 90%;
+        height: 100%;
         margin-bottom: 7rem;
         margin-top: 4rem;
         margin-bottom: 2rem;
@@ -471,21 +471,21 @@ h3 {
     }
 
     #titulo {
-        font-size: 3.0rem;
+        font-size: 3.2rem;
     }
 
 
     #question {
         width: 90%;
-        font-size: 27px;
+        font-size: 23px;
     }
 
     #choices {
-        font-size: 25px;
+        font-size: 20px;
     }
     
     #progress {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #reinicio{
@@ -593,6 +593,7 @@ h3 {
 
     #question {
         width: 90%;
+    
     }
 
     #reinicio{
