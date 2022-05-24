@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Pokemon Quiz</title> 
     
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--  Fonts  -->
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rowdies:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/223a664c6f.js" crossorigin="anonymous"></script>
+    <!--  Iconos -->
+    <script src="https://kit.fontawesome.com/223a664c6f.js" crossorigin="anonymous"></script> 
+    <!--Gsap Library-->
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" ></script> 
 
     <style>
@@ -21,7 +23,7 @@
 </head>
 
 
-<!--///////BODY///////// -->
+<!--  ============ BODY ============== -->
 
 <body>
 
@@ -29,7 +31,7 @@
         <source src="./src/Duelo.mpeg" type="audio/mpeg">
     </audio>
 
-<!--//CONTENEDOR DE LA INFORMACION//-->
+<!-- =========== CONTENEDOR DE LA INFORMACION ============== -->
 
     <div id="quiz">
     
@@ -52,18 +54,27 @@
     </div>
 
 
+    <!-- =========== FIN DEL CONTENEDOR DE LA INFORMACION ============== -->
 
-    <!--////BOTON DE ACTUALIZAR PAGINA///-->
+
+
+    <!-- ============= BOTON DE ACTUALIZAR PAGINA =================  -->
 
     <p id="p" > REINICIAR </p>
     <div id="pokeball">
         
-    <button type="button" id="reinicio" onclick="location.reload()">
+    <button type="button" id="reinicio" onclick="location.reload()"> 
         
     </button>
 
     </div>
 
+    <!-- ============= FIN BOTON DE ACTUALIZAR PAGINA =================  -->
+
+
+
+
+    <!-- ============== FOOTER ================== -->
 
         <footer class="pie-de-pagina">
             
@@ -98,12 +109,14 @@
 
         </footer>
 
+<!-- ============== FIN DEL FOOTER ================== -->
 
 
-<!--///////SCRIPTS///////////-->
+
+<!-- ============== SCRIPTS ===============-->
 
 
-<!--/////ANIMACIONES CON LA LIBRERIA GSAP/////-->
+<!-- /////////////// ANIMACIONES CON LA LIBRERIA GSAP ///////////// -->
 
 <script>
         
@@ -190,7 +203,12 @@ tl.fade("#titulo", {duration: 120});
 
 </script>
 
+<!-- ////////// FIN DE ANIMACIONES CON LA LIBRERIA GSAP ///////////// -->
+
+
 <script src="./app.js" type="module"></script>
+
+<!-- ========= FIN DE SCRIPTS ============ -->
 
 </body>
 </html>
