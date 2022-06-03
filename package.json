@@ -19,23 +19,13 @@
   },
   "homepage": "https://github.com/laloxox/Pokemon-Quiz#readme",
   "dependencies": {
-
-    "gh-pages": "^4.0.0",
     "npm-check-updates": "^13.0.4"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.17.10",
-    "@babel/core": "^7.17.12",
-    "@babel/node": "^7.17.10",
-    "@babel/preset-env": "^7.17.12",
-    "gh-pages": "^3.2.3",
-    "npm-check-updates": "^12.5.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.18.2",
     "@babel/node": "^7.17.10",
-    "@babel/preset-env": "^7.18.2"
-
+    "@babel/preset-env": "^7.18.2",
+    "gh-pages": "^4.0.0"
   }
 }
