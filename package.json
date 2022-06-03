@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "deploy": "gh-pages -d ."
+    "deploy": "gh-pages -d .",
+    "dev": "babel-node ./app.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,13 @@
   },
   "homepage": "https://github.com/laloxox/Pokemon-Quiz#readme",
   "dependencies": {
-    "gh-pages": "^3.2.3",
-    "npm-check-updates": "^12.4.0"
+    "npm-check-updates": "^13.0.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.2",
+    "gh-pages": "^4.0.0"
   }
 }
