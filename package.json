@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/laloxox/Pokemon-Quiz#readme",
   "dependencies": {
-    "npm-check-updates": "^13.0.4"
+    "npm-check-updates": "^13.1.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",

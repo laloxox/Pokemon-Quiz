@@ -44,6 +44,8 @@ function reiniciar() {
     document.getElementById('reinicio').addEventListener('click', function(e) {
         location.reload();
     }); 
+
+    
     
 }
 

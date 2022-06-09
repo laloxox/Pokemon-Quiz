@@ -107,6 +107,21 @@ question: 'Cual de estas opciones no es un pokemon electrico?',
                                     answer: 'Pokedex'
                                 },
 
+                                  //Question #16
+                                {
+                                    question: 'Que tipo de pokemon es psyduck?',
+                                    choices: ['Tipo tierra','Tipo electrico','Tipo agua-psiquico','Tipo normal'],
+                                    answer: 'Tipo agua-psiquico'
+                                },
+
+                                 //Question #17
+                                {
+                                    question: 'Que funcion tiene un centro pokemon?',
+                                    choices: ['Alimentar a los pokemon','Curar a los pokemon','Lavar a los pomeon','Pasear a los pokemon'],
+                                    answer: 'Curar a los pokemon'
+                                },
+
+
 
 
 ]
