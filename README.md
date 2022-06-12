@@ -9,6 +9,7 @@ Haciendo uso del paradigma de programacion orientado a objetos para
 crear un quiz basado en pokemon.
 
 -----------------------------
+## Estado del proyecto
 
 El proyecto aun esta en desarrollo enfocado principalmente en ofrecer un diseño atractivo
 
