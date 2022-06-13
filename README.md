@@ -1,20 +1,33 @@
 # Pokemon Quiz
 
-
-
-## Contenido
-Este proyecto esta construido con HTML, CSS Y JavaScript 
-
-Haciendo uso del paradigma de programacion orientado a objetos para 
-crear un quiz basado en pokemon.
+## Content
+This project is built with HTML, CSS and JavaScript using the object-oriented programming paradigm to
+create a quiz based on pokemon.
 
 
 ## Estado del proyecto
 
-El proyecto aun esta en desarrollo enfocado principalmente en ofrecer un diseño atractivo
+The project is still under development focused mainly on offering an attractive design.
 
 
 
-### Demo 
-si deseas ver una demo del proyecto desplegada, puedes visitar: <https://laloxox.github.io/Pokemon-Quiz/> 
+## Demo 
 
+
+If you want to see the demo of this project deployed, you can visit: <https://laloxox.github.io/Pokemon-Quiz/> 
+
+
+
+## Development envoirement requirements
+
+Install the dependencies required
+
+- @babel-core
+- @babel-cli
+- @babel-node
+- @babel/preste-env
+
+
+## Install 
+
+`npm install`
