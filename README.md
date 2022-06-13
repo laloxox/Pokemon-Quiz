@@ -25,7 +25,7 @@ Install the dependencies required
 - @babel-core
 - @babel-cli
 - @babel-node
-- @babel/preste-env
+- @babel/preset-env
 
 
 ## Install 
