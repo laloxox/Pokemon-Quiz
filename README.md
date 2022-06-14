@@ -28,6 +28,13 @@ Install the dependencies required
 - @babel/preset-env
 
 
-## Install 
+## Installation 
 
-`npm install`
+To install and run this proyect just type and execute
+
+``npm install``
+
+
+## Preview
+
+![Interface](/img/captura.png)
