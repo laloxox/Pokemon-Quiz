@@ -5,7 +5,7 @@ This project is built with HTML, CSS and JavaScript using the object-oriented pr
 create a quiz based on pokemon.
 
 
-## Estado del proyecto
+## Project Status
 
 The project is still under development focused mainly on offering an attractive design.
 
@@ -32,7 +32,7 @@ Install the dependencies required
 
 To install and run this proyect just type and execute
 
-``npm install``
+    npm install
 
 
 ## Preview
